@@ -2,6 +2,7 @@
 This was my home assignment for a summer job.
 
 This web application was made with ASP.NET(C#). Database is SQL server.
+Front end is basic Bootstrap layout.
 
 Features: Register, Login, can search a project by its name, can create, update and delete the projects.
 
