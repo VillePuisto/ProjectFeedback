@@ -1,5 +1,5 @@
 # ProjectFeedback
-This was my home assignment for a summerjob.
+This was my home assignment for a summer job.
 
 This web application was made with ASP.NET(C#). Database is SQL server.
 
