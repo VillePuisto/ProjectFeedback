@@ -1,0 +1,66 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="jumbotron">
+  <h1 class="display-4">Welcome</h1>
+  <p class="lead">Hello, This is my home assignment for a software developer summer job.</p>
+  <hr class="my-4">
+  <p>In this assingment i try to do web app where you can name, describe and rate a project.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" asp-area="" asp-controller="Projects" asp-action="Index">Learn more</a>
+  </p>
+</div>
+<div class="accordion mt-5" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Features
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>Using ASP.NET framework to create a website that shows my skills as a developer, Database is SQL Server that is a part of visual studio 2022, Search function: can search a project by its name,
+            can create, update and delete the projects, Login and Logout function. Deploit this by Azure.</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Front and Back End
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p> I didin't want to use too much time in styling the app, so i use Bootstrap to add a little style in there. Database is the SQL server database. The app is deploit in Azure
+            app service and also the SQL database is in Azure.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        No earlier experience in ASP.NET and C# environment
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>So yes i had not have experience of .NET before so i speedrun some tutorials so i learn at least something about it. </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        Result
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>In the projects page you can create, edit, delete and give a "rating" to the project. Also in the search page you can search a project by writing its name.</p>
+      </div>
+    </div>
+  </div>
+</div>
